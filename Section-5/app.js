@@ -8,9 +8,4 @@ angularApp.controller('mainController', ['$scope', function($scope) {
     $scope.name = "Jane Doe";
     $scope.getName = function() { return "Hi, " + this.name};
 
-
-
-    
-
-
 }]);
